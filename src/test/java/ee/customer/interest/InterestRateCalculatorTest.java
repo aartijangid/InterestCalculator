@@ -1,8 +1,11 @@
 package ee.customer.interest;
 
+import ee.customer.exception.InterestException;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.mockito.Mockito.doThrow;
 
 class InterestRateCalculatorTest {
 
@@ -31,5 +34,4 @@ class InterestRateCalculatorTest {
         double amount = 5001.00;
         assertEquals(3.00, interestRateCalculator.getInterestRate(amount));
     }
-
 }
