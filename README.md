@@ -1,4 +1,4 @@
-## InterestCalculator
+## Interest Calculator
 
 A bank wants to introduce a new bank account with variable rates of interest depending
 on how much money is in the account.
